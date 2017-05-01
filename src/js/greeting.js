@@ -45,7 +45,7 @@ var Greeting = (function(){
         } else if(theHour >= 12 && theHour < 17) {
             timeOfDay = "afternoon";
         } else {
-            timeOfDay = "evening"
+            timeOfDay = "evening";
         }
 
         return `Good ${timeOfDay}, ${placeHolder}.`;
@@ -71,5 +71,5 @@ var Greeting = (function(){
         init: init,
         displayMessage: displayMessage
     }
-    
+
 })();
