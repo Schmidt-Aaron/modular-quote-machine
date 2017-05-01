@@ -54,7 +54,7 @@ var Quote = (function() {
             .attr('href', response[0].link)
             .attr('target', '_blank')
             .html(DOM.$quoteLink)
-            .append(DOM.author);
+            .append(DOM.$author);
     }
 
     /** public methods */
